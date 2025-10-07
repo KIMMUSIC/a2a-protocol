@@ -1,0 +1,9 @@
+go 1.24.2
+
+use (
+	./pkg/a2a
+	./services/agent-a-go
+	./services/agent-b-go
+	./services/concierge-go
+	./services/interpreter-go
+)

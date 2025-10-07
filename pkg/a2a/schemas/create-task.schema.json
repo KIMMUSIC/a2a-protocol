@@ -1,0 +1,14 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/a2a/create-task.schema.json",
+    "type": "object",
+    "required": ["task_type", "input"],
+    "properties": {
+      "task_type": {"type":"string"},
+      "input": {},
+      "reply_url": {"type":"string"},
+      "idempotency_key": {"type":"string"},
+      "meta": {"type":"object"}
+    }
+  }
+  
